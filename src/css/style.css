@@ -132,10 +132,9 @@ h1{
     max-width: 650px;
 }
 
-.fake-img1 {
-    width: 450px;
-    height: 450px;
-    background-color: antiquewhite;
+.opening-img {
+    width: 400px;
+    height: auto;
     border-radius: 15px;
 }
 
@@ -151,7 +150,7 @@ h2{
 
 .grid-container {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 400px 400px;
     gap: 5px;
     justify-content: space-evenly;
 }
@@ -168,20 +167,20 @@ article h3 {
 }
 
 .fake-img2 {
-    width: 500px;
+    width: 400px;
     height: 250px;
     background-color: antiquewhite;
     border-radius: 15px 15px 0 0;
 }
 
 .article-img {
-    max-width: 500px;
+    max-width: 400px;
     height: auto;
     border-radius: 15px 15px 0 0;
 }
 
 .grid-text-container {
-    width: 500px;
+    width: 400px;
     background-color: azure;
     border-radius: 0 0 15px 15px;
 }
@@ -226,8 +225,8 @@ article h3 {
 }
 
 .fake-map {
-    width: 450px;
-    height: 450px;
+    width: 350px;
+    height: 350px;
     background-color: antiquewhite;
     margin: 20px 0;
 }
@@ -245,4 +244,58 @@ footer p {
     text-align: center;
     padding-bottom: 10px;
     margin-top: 20px;
+}
+
+/*              media               */
+
+@media screen and (max-width: 500px) {
+    .nav-ul {
+        margin-bottom: 20px;
+    }
+    
+    .display-area {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .text-box {
+        margin-top: 20px;
+    }
+    
+    .grid-container {
+        grid-template-columns: auto;
+    }
+
+    .catalogo-heading {
+        grid-column: auto;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-info h3 {
+        text-align: center;
+        line-height: 2em;
+    }
+
+    .social, .contacto, .address {
+        line-height: 1.5em;
+        text-align: center;
+    }
+    
+    .headline {
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            position: relative;
+        }
+
+        .headline-text {
+            display: inline-block;
+            position: absolute;
+            left: -100%;
+            animation: scrollText 15s linear infinite;
+        }
 }
