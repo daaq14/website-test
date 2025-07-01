@@ -152,7 +152,7 @@ h2{
 .grid-container {
     display: grid;
     grid-template-columns: auto auto;
-    gap: 20px;
+    gap: 5px;
     justify-content: space-evenly;
 }
 
@@ -171,6 +171,12 @@ article h3 {
     width: 500px;
     height: 250px;
     background-color: antiquewhite;
+    border-radius: 15px 15px 0 0;
+}
+
+.article-img {
+    max-width: 500px;
+    height: auto;
     border-radius: 15px 15px 0 0;
 }
 
