@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid-template</title>
+    <title>Global Americana de Servicios</title>
     <link rel="icon" type="icon/x-icon" href="/src/resourses/global_logo_t-removebg-preview.ico">
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,11 +14,11 @@
 <body>
     <header id="header">
         <div class="headline">
-            <p class="headline-text">horario de atencion: de lunes a viernes de 08:00 am a 11:30 am y 02:00 pm a 05:00 pm. Sabados de 08:00 am a 11:30 am</p>
+            <p class="headline-text">horario de atencion: de lunes a viernes de 08:00am a 11:30am y 02:00pm a 05:00pm. Sabados de 08:00am a 11:30am</p>
         </div>
         <nav class="navbar">
             <div class="logo-container">
-            <a href="#"><img src="/src/resourses/logo.png" alt="logotipo" height="200px"></a>
+            <a href="#"><img src="/src/resourses/logo.png" class="nav-logo" alt="logotipo"></a>
         </div>
             <div class="nav-container">
             <ul class="nav-ul">
@@ -40,26 +40,30 @@
         <h2> Nuestros servicios </h2>
         <section class="grid-container">
             <article>
-                <a href="/src/article-example.html"><img class="article-img" src="/src/resourses/4_3ratio.webp" alt="mujer limpiando"></a>
+                <a href="/src/article-aseo.html"><img class="article-img" src="/src/resourses/4_3ratio.webp" alt="mujer limpiando"></a>
                 <div class="grid-text-container">
+                    <h3> something 1 </h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere tempore qui, mollitia voluptatem atque omnis officiis, saepe fugiat maiores aperiam quibusdam, deleniti magnam molestias odit magni maxime doloribus id dolore.</p>
                 </div>
             </article>
             <article>
-                <a href="/src/article-example2.html"><img class="article-img" src="/src/resourses/jardinero.webp" alt="hombre cavando el suelo"></a>
+                <a href="/src/article-jardineria.html"><img class="article-img" src="/src/resourses/jardinero.webp" alt="hombre cavando el suelo"></a>
                 <div class="grid-text-container">
+                    <h3> something 2 </h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere tempore qui, mollitia voluptatem atque omnis officiis, saepe fugiat maiores aperiam quibusdam, deleniti magnam molestias odit magni maxime doloribus id dolore.</p>
                 </div>
             </article>
             <article>
-                <a href="/src/article-example3.html"><img class="article-img" src="/src/resourses/piscinero.webp"  alt="piscinero haciendo prueba de pH"></a>
+                <a href="/src/article-piscinero.html"><img class="article-img" src="/src/resourses/piscinero.webp"  alt="piscinero haciendo prueba de pH"></a>
                 <div class="grid-text-container">
+                    <h3> something 3 </h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere tempore qui, mollitia voluptatem atque omnis officiis, saepe fugiat maiores aperiam quibusdam, deleniti magnam molestias odit magni maxime doloribus id dolore.</p>
                 </div>
             </article>
             <article>
-                <a href="/src/article-example4.html"><img class="article-img" src="/src/resourses/fumigacion.webp"  alt="fumigacion residencial"></a>
+                <a href="/src/article-fumigacion.html"><img class="article-img" src="/src/resourses/fumigacion.webp"  alt="fumigacion residencial"></a>
                 <div class="grid-text-container">
+                    <h3> something 4 </h3>
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere tempore qui, mollitia voluptatem atque omnis officiis, saepe fugiat maiores aperiam quibusdam, deleniti magnam molestias odit magni maxime doloribus id dolore.</p>
                 </div>
             </article>
@@ -72,23 +76,23 @@
                 <div>
                     <h3>Redes</h3>
                     <ul class="social"> 
-                        <li class="redes"><a href="https://www.facebook.com/share/1EF1bUUYME/" target="_blank"><i class="fa"></i>@globalamericanadeservicios</a></li>
-                        <li class="redes"><a href="https://www.instagram.com/globalamericanadeservicios/" target="_blank"><i class="fa"></i>@globalamericanadeservicios</a></li>
+                        <li class="redes"><a href="https://www.facebook.com/share/1EF1bUUYME/" target="_blank"><i class="fa fa-facebook"></i>@globalamericanadeservicios</a></li>
+                        <li class="redes"><a href="https://www.instagram.com/globalamericanadeservicios/" target="_blank"><i class="fa fa-instagram"></i>@globalamericanadeservicios</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3>Contactos</h3>
                     <ul class="contacto"> 
-                        <li class="correo">GLOBALAMERICANADESERVICIOS@gmail.com</li>
-                        <li class="whsp"><a href="https:wa.me/573164345373" target="_blank">316-434-5373</a></li>
+                        <li class="correo"><i class="fa fa-envelope"></i>GLOBALAMERICANADESERVICIOS@gmail.com</li>
+                        <li class="whsp"><i class="fa fa-whatsapp"></i><a href="https:wa.me/573164345373" target="_blank">316-434-5373</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3>Direccion</h3>
                     <ul class="address">
-                        <li class="direccion">Cucúta: CALLE 0 #0-26 LLERAS RESTREPO</li>
-                        <li class="direccion">Bucaramanga: CALLE 21 #31-70 LOCAL1 SAN ALONSO</li>
-                        <li class="direccion">Bógota D.C: CALLE D 16 #4-64 APTO 403 EDIFICIO VERACRUZ</li>
+                        <li class="direccion"> <i class="fa fa-location-dot"></i>Cucúta: CALLE 0 #0-26 LLERAS RESTREPO</li>
+                        <li class="direccion"> <i class="fa fa-location-dot"></i>Bucaramanga: CALLE 21 #31-70 LOCAL1 SAN ALONSO</li>
+                        <li class="direccion"> <i class="fa fa-location-dot"></i>Bógota D.C: CALLE D 16 #4-64 APTO 403 EDIFICIO VERACRUZ</li>
                     </ul>
                 </div>
             </div>
