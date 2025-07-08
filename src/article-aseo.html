@@ -4,20 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid-template</title>
-    <link rel="icon" type="icon/x-icon" href="/src/resourses/global_logo_t-removebg-preview.png">
+    <link rel="icon" type="icon/x-icon" href="/src/resourses/global_logo_t-removebg-preview.ico">
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/71ba9b7ba4.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header id="header">
         <div class="headline">
-            <p>horario de atencion: de lunes a viernes de 08:00 am a 11:30 am y 02:00 pm a 05:00 pm. Sabados de 08:00 am a 11:30 am</p>
+            <p class="headline-text">horario de atencion: de lunes a viernes de 08:00am a 11:30am y 02:00pm a 05:00pm. Sabados de 08:00am a 11:30am</p>
         </div>
         <nav class="navbar">
             <div class="logo-container">
-            <a href="/src/index.html"><img src="/src/resourses/logo.png" alt="logotipo" height="200px"></a>
+            <a href="/src/index.html"><img src="/src/resourses/logo.webp" class="nav-logo" alt="logotipo" height="200px"></a>
         </div>
             <div class="nav-container">
             <ul class="nav-ul">
@@ -29,45 +30,57 @@
         </nav>
     </header>
     <main id="main">
-        <h1> dummy text </h1>
+        <h1> Aseo, limpieza y desinfección </h1>
         <section class="article-area">
-            <a class="button" href="/src/article-example9.html"><div class="button prev"></div></a>
+            <a href="/src/article-recepcion.html"><div class="prev"><i class="fa fa-chevron-left"></i></div></a>
             <article class="catalogo-art">
-                <div class="fake-img1"></div>
+                <img class="article-img" src="/src/resourses/4_3ratio.webp"  alt="mujer realizando labores de aseo, limpieza y desinfección">
                 <div class="text-box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae numquam velit, quo ipsam at nam voluptas? Accusantium magni aspernatur velit id. Ratione, sunt quaerat nisi eum optio neque aperiam deserunt?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae numquam velit, quo ipsam at nam voluptas? Accusantium magni aspernatur velit id. Ratione, sunt quaerat nisi eum optio neque aperiam deserunt?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae numquam velit, quo ipsam at nam voluptas? Accusantium magni aspernatur velit id. Ratione, sunt quaerat nisi eum optio neque aperiam deserunt?
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae numquam velit, quo ipsam at nam voluptas? Accusantium magni aspernatur velit id. Ratione, sunt quaerat nisi eum optio neque aperiam deserunt?
-                </p>
-            </div>
+                    <p>Contamos con un equipo de trabajo altamente capacitado en diversas áreas, con experiencia comprobada y certificación en competencias laborales. Nos especializamos en el manejo de sustancias químicas y residuos peligrosos, garantizando un tratamiento profesional en:<br><br>
+                        <ul>
+                            <li>Desinfección de áreas críticas </li>
+                            <li>Recolección y disposición adecuada de RESPEL </li>
+                            <li>Gestión y administración eficiente de suministros </li>
+                        </ul>
+                    </p>
+                    <br>
+                    <p>
+                        Nuestro objetivo es asegurar la protección tanto de los usuarios como de nuestros clientes. 
+                    </p>
+                </div>
             </article>
-            <a class="button" href="/src/article-example2.html"><div class="button next"></div></a>
+            <a href="/src/article-jardineria.html"><div class="next"><i class="fa fa-chevron-right"></i></div></a>
         </section>
     </main>
     <footer id="footer">
         <div class="footer-container">
             <div class="fake-map"></div>
             <div class="footer-info">
-                <ul class="social"> 
-                    <h3>test</h3>
-                    <li class="redes"><a href="#"><i class="fa"></i>facebook</a></li>
-                    <li class="redes"><a href="#"><i class="fa"></i>instagram</a></li>
-                </ul>
-                <ul class="contacto"> 
-                    <h3>test</h3>
-                    <li class="correo">dummymail@gmail.com</li>
-                    <li class="whsp">333-444-5555</li>
-                </ul>
-                <ul class="address">
-                    <h3>test</h3>
-                    <li class="direccion">dummy address</li>
-                    <li class="direccion">dummy address</li>
-                    <li class="direccion">dummy address</li>
-                </ul>
+                <div>
+                    <h3>Redes</h3>
+                    <ul class="social"> 
+                        <li class="redes"><a href="https://www.facebook.com/share/1EF1bUUYME/" target="_blank"><i class="fa fa-facebook"></i>@globalamericanadeservicios</a></li>
+                        <li class="redes"><a href="https://www.instagram.com/globalamericanadeservicios/" target="_blank"><i class="fa fa-instagram"></i>@globalamericanadeservicios</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contactos</h3>
+                    <ul class="contacto"> 
+                        <li class="correo"><i class="fa fa-envelope"></i>GLOBALAMERICANADESERVICIOS@gmail.com</li>
+                        <li class="whsp"><i class="fa fa-whatsapp"></i><a href="https:wa.me/573164345373" target="_blank">316-434-5373</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Direccion</h3>
+                    <ul class="address">
+                        <li class="direccion"> <i class="fa fa-location-dot"></i>Cucúta: CALLE 0 #0-26 LLERAS RESTREPO</li>
+                        <li class="direccion"> <i class="fa fa-location-dot"></i>Bucaramanga: CALLE 21 #31-70 LOCAL1 SAN ALONSO</li>
+                        <li class="direccion"> <i class="fa fa-location-dot"></i>Bógota D.C: CALLE D 16 #4-64 APTO 403 EDIFICIO VERACRUZ</li>
+                    </ul>
+                </div>
             </div>
         </div>
-        <p>copyright 2025</p>
+        <p>copyright <i>&copy;</i>2025</p>
     </footer>
 </body>
 </html>
