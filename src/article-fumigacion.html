@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grid-template</title>
+    <title>Global Americana de Servicios</title>
     <link rel="icon" type="icon/x-icon" href="/src/resourses/global_logo_t-removebg-preview.ico">
     <link rel="stylesheet" href="/src/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
     <script src="https://kit.fontawesome.com/71ba9b7ba4.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -50,7 +52,7 @@
     </main>
     <footer id="footer">
         <div class="footer-container">
-            <div class="fake-map"></div>
+            <div id="map"></div>
             <div class="footer-info">
                 <div>
                     <h3>Redes</h3>
@@ -78,5 +80,6 @@
         </div>
         <p>copyright <i>&copy;</i>2025</p>
     </footer>
+    <script src="/src/js/map.js"></script>
 </body>
 </html>

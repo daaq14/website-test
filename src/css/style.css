@@ -10,6 +10,7 @@
     --body-font: montserrat;
     --collitions: 1px solid black;
 /*              global properties               */
+    font-size: 16px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -322,10 +323,9 @@ article h3 {
     border-bottom: var(--collitions);
 }
 
-.fake-map {
+#map {
     width: 350px;
     height: 350px;
-    background-color: antiquewhite;
     margin: 20px 0;
 }
 
