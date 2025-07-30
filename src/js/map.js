@@ -7,9 +7,8 @@ var map = L.map('map').setView([7.898023,-72.500620], 18);
 
         var marker = L.marker([7.898023,-72.500620]).addTo(map);
 
-        var marker = L.marker([7.129369,-73.115661]).addTo(map); // direccion antigua cambiar
+        var marker = L.marker([7.102338, -73.127116]).addTo(map);
 
-//        var marker = L.marker([7.086012,-73.117774]).addTo(map); nueva direccion bucaramanga
         var marker = L.marker([4.60151,-74.07078]).addTo(map);
 
         function centerTo(lat, lng) {
